@@ -38,12 +38,16 @@ p {
 
 a {
 	font-weight: 700;
+}
+
+.link {
+	font-weight: 700;
 	font-size: 1.5rem;
 	color: #3366cc;
 	text-decoration: none;
 }
 
-a:hover {
+.link:hover {
 	color: #1a3366;
 }
 
