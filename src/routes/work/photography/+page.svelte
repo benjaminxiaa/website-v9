@@ -50,7 +50,6 @@
 		<a class="link" href="/work/photography/2023/hakone-gardens">hakone gardens</a>
 		<a class="link" href="/work/photography/2023/new-mexico">new mexico</a>
 		<br />
-		
 		<h2>2024</h2>
 		<p>In Progress</p>
 		<!--
