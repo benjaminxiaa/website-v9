@@ -42,18 +42,20 @@
 </main>
 <div class="outer-container">
 	<div class="after-page">
-		<h2>In Progress.. Come Back Soon</h2>
-		<!-- <h2>Photography - 2022</h2>
-		<span class="link"><a href="/work/photography/2022/death-valley">death valley</a></span>
+		<h2>2022</h2>
+		<span><a class="link" href="/work/photography/2022/death-valley">death valley</a></span>
 		<br />
-		<h2>Photography - 2023</h2>
-		<span class="link"><a href="/work/photography/2023/big-sur">big sur</a></span>
-		<span class="link"><a href="/work/photography/2023/hakone-gardens">hakone gardens</a></span>
-		<span class="link"><a href="/work/photography/2023/new-mexico">new mexico</a></span>
+		<h2>2023</h2>
+		<span><a class="link" href="/work/photography/2023/big-sur">big sur</a></span>
+		<span><a class="link" href="/work/photography/2023/hakone-gardens">hakone gardens</a></span>
+		<span><a class="link" href="/work/photography/2023/new-mexico">new mexico</a></span>
 		<br />
-		<h2>Photography - 2024</h2>
-		<span class="link"><a href="/work/photography/2024/south-korea">south korea - seoul</a></span>
-		<span class="link"><a href="/work/photography/2024/fukuoka">japan - fukuoka</a></span>
-		<span class="link"><a href="/work/photography/2024/fukuoka">japan - osaka</a></span> -->
+		
+		<h2>2024</h2>
+		<p>In Progress</p>
+		<!--
+		<span><a class="link" href="/work/photography/2024/south-korea">south korea - seoul</a></span>
+		<span><a class="link" href="/work/photography/2024/fukuoka">japan - fukuoka</a></span>
+		<span><a class="link" href="/work/photography/2024/fukuoka">japan - osaka</a></span> -->
 	</div>
 </div>

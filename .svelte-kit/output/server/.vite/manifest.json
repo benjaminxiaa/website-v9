@@ -8,6 +8,16 @@
       "_internal.js"
     ]
   },
+  "_Gallery.js": {
+    "file": "chunks/Gallery.js",
+    "name": "Gallery",
+    "imports": [
+      "_ssr.js"
+    ],
+    "css": [
+      "_app/immutable/assets/Gallery.BqwnsGb-.css"
+    ]
+  },
   "_exports.js": {
     "file": "chunks/exports.js",
     "name": "exports"
@@ -87,6 +97,46 @@
     "isEntry": true,
     "imports": [
       "_ssr.js"
+    ]
+  },
+  "src/routes/work/photography/2022/death-valley/+page.svelte": {
+    "file": "entries/pages/work/photography/2022/death-valley/_page.svelte.js",
+    "name": "entries/pages/work/photography/2022/death-valley/_page.svelte",
+    "src": "src/routes/work/photography/2022/death-valley/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Gallery.js"
+    ]
+  },
+  "src/routes/work/photography/2023/big-sur/+page.svelte": {
+    "file": "entries/pages/work/photography/2023/big-sur/_page.svelte.js",
+    "name": "entries/pages/work/photography/2023/big-sur/_page.svelte",
+    "src": "src/routes/work/photography/2023/big-sur/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Gallery.js"
+    ]
+  },
+  "src/routes/work/photography/2023/hakone-gardens/+page.svelte": {
+    "file": "entries/pages/work/photography/2023/hakone-gardens/_page.svelte.js",
+    "name": "entries/pages/work/photography/2023/hakone-gardens/_page.svelte",
+    "src": "src/routes/work/photography/2023/hakone-gardens/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Gallery.js"
+    ]
+  },
+  "src/routes/work/photography/2023/new-mexico/+page.svelte": {
+    "file": "entries/pages/work/photography/2023/new-mexico/_page.svelte.js",
+    "name": "entries/pages/work/photography/2023/new-mexico/_page.svelte",
+    "src": "src/routes/work/photography/2023/new-mexico/+page.svelte",
+    "isEntry": true,
+    "imports": [
+      "_ssr.js",
+      "_Gallery.js"
     ]
   },
   "src/routes/work/programming/+page.svelte": {
