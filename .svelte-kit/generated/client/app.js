@@ -11,7 +11,9 @@ export const nodes = [
 	() => import('./nodes/7'),
 	() => import('./nodes/8'),
 	() => import('./nodes/9'),
-	() => import('./nodes/10')
+	() => import('./nodes/10'),
+	() => import('./nodes/11'),
+	() => import('./nodes/12')
 ];
 
 export const server_loads = [];
@@ -25,7 +27,9 @@ export const dictionary = {
 		"/work/photography/2023/big-sur": [7],
 		"/work/photography/2023/hakone-gardens": [8],
 		"/work/photography/2023/new-mexico": [9],
-		"/work/programming": [10]
+		"/work/photography/2024/japan": [10],
+		"/work/photography/2024/south-korea": [11],
+		"/work/programming": [12]
 	};
 
 export const hooks = {

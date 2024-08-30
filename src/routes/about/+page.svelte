@@ -42,10 +42,8 @@
 </main>
 <div class="after-page">
   <p>
-    Lorem ipsum dolor sit amet diam rebum aliquyam velit. Gubergren justo
-    accumsan ut et stet sit dolor consetetur dolore consetetur labore gubergren
-    kasd et. Ipsum ipsum sea lorem sadipscing amet adipiscing et eum suscipit
-    sed magna dolore eros magna. Ut et sea. Kasd no vel kasd facilisis gubergren
-    ut dolor eos.
+    o/ 👋. I am a student who is passionate about photography and computer science.
+    I started photography in late 2021 and computer science a few years ago.
+    I love taking photos of the environment and other interesting subjects.
   </p>
 </div>
