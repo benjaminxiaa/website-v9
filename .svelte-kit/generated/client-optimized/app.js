@@ -17,21 +17,23 @@ export const nodes = [
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [2],
-		"/about": [3],
-		"/contact": [4],
-		"/work/photography": [5],
-		"/work/photography/2022/death-valley": [6],
-		"/work/photography/2023/big-sur": [7],
-		"/work/photography/2023/hakone-gardens": [8],
-		"/work/photography/2023/new-mexico": [9],
-		"/work/programming": [10]
-	};
+	'/': [2],
+	'/about': [3],
+	'/contact': [4],
+	'/work/photography': [5],
+	'/work/photography/2022/death-valley': [6],
+	'/work/photography/2023/big-sur': [7],
+	'/work/photography/2023/hakone-gardens': [8],
+	'/work/photography/2023/new-mexico': [9],
+	'/work/programming': [10]
+};
 
 export const hooks = {
-	handleError: (({ error }) => { console.error(error) }),
+	handleError: ({ error }) => {
+		console.error(error);
+	},
 
-	reroute: (() => {})
+	reroute: () => {}
 };
 
 export { default as root } from '../root.svelte';

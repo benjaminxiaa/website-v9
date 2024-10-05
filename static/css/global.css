@@ -1,0 +1,10 @@
+:root {
+	--color-primary: #18181a;
+	--color-secondary: #75757c;
+	--color-dark: rgb(90, 109, 160);
+	--color-light: #f5f5f5;
+	--font-family-primary: 'Roboto Mono', monospace;
+	--font-family-secondary: 'Rubik Mono One', sans-serif;
+	--td: 150ms;
+	--te: cubic-bezier(0.215, 0.61, 0.355, 1);
+}

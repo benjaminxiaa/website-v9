@@ -13,29 +13,33 @@ export const nodes = [
 	() => import('./nodes/9'),
 	() => import('./nodes/10'),
 	() => import('./nodes/11'),
-	() => import('./nodes/12')
+	() => import('./nodes/12'),
+	() => import('./nodes/13')
 ];
 
 export const server_loads = [];
 
 export const dictionary = {
-		"/": [2],
-		"/about": [3],
-		"/contact": [4],
-		"/work/photography": [5],
-		"/work/photography/2022/death-valley": [6],
-		"/work/photography/2023/big-sur": [7],
-		"/work/photography/2023/hakone-gardens": [8],
-		"/work/photography/2023/new-mexico": [9],
-		"/work/photography/2024/japan": [10],
-		"/work/photography/2024/south-korea": [11],
-		"/work/programming": [12]
-	};
+	'/': [2],
+	'/about': [3],
+	'/contact': [4],
+	'/work/photo': [5],
+	'/work/photo/2022/death-valley': [6],
+	'/work/photo/2023/big-sur': [7],
+	'/work/photo/2023/hakone-gardens': [8],
+	'/work/photo/2023/new-mexico': [9],
+	'/work/photo/2024/japan': [10],
+	'/work/photo/2024/south-korea': [11],
+	'/work/programming': [12],
+	'/work/video': [13]
+};
 
 export const hooks = {
-	handleError: (({ error }) => { console.error(error) }),
+	handleError: ({ error }) => {
+		console.error(error);
+	},
 
-	reroute: (() => {})
+	reroute: () => {}
 };
 
 export { default as root } from '../root.svelte';
