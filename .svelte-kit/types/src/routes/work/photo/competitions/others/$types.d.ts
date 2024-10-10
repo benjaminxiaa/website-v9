@@ -8,7 +8,7 @@ type MatcherParam<M> = M extends (param: string) => param is infer U
 		: string
 	: string;
 type RouteParams = {};
-type RouteId = '/';
+type RouteId = '/work/photo/competitions/others';
 type MaybeWithVoid<T> = {} extends T ? T | void : T;
 export type RequiredKeys<T> = {
 	[K in keyof T]-?: {} extends { [P in K]: T[K] } ? never : K;
@@ -24,30 +24,7 @@ type OptionalUnion<
 	A extends keyof U = U extends U ? keyof U : never
 > = U extends unknown ? { [P in Exclude<A, keyof U>]?: never } & U : never;
 export type Snapshot<T = any> = Kit.Snapshot<T>;
-type PageParentData = EnsureDefined<LayoutData>;
-type LayoutRouteId =
-	| RouteId
-	| '/'
-	| '/about'
-	| '/contact'
-	| '/work/clients/harker-sports'
-	| '/work/clients/harker-sports/football'
-	| '/work/photo'
-	| '/work/photo/2022/death-valley'
-	| '/work/photo/2023/big-sur'
-	| '/work/photo/2023/hakone-gardens'
-	| '/work/photo/2023/new-mexico'
-	| '/work/photo/2024/japan'
-	| '/work/photo/2024/south-korea'
-	| '/work/photo/competitions/others'
-	| '/work/photo/competitions/scholastic'
-	| '/work/programming'
-	| '/work/video'
-	| null;
-type LayoutParams = RouteParams & {};
-type LayoutParentData = EnsureDefined<{}>;
+type PageParentData = EnsureDefined<import('../../../../$types.js').LayoutData>;
 
 export type PageServerData = null;
 export type PageData = Expand<PageParentData>;
-export type LayoutServerData = null;
-export type LayoutData = Expand<LayoutParentData>;

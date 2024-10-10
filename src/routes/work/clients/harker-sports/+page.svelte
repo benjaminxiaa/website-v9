@@ -9,16 +9,12 @@
 <Nav />
 
 <main class="page-container">
-	<h1 class="center">Videography</h1>
+	<h1 class="center">Harker Sports</h1>
 </main>
 <div class="after-page">
 	<div class="after-page-content">
-		<div class="column left-column">
-			<h2>Clients</h2>
-			<a class="link" href="/work/clients/harker-sports">Harker Sports</a>
-		</div>
 		<div class="column">
-			<p>In Progress</p>
+			<h2><a class="link" href="/work/photo/clients/harker-sports/football">Football</a></h2>
 		</div>
 	</div>
 </div>

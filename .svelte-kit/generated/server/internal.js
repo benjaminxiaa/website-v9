@@ -26,17 +26,17 @@ export const options = {
 	service_worker: false,
 	templates: {
 		app: ({ head, body, assets, nonce, env }) =>
-			'<!doctype html>\r\n<html lang="en">\r\n\t<head>\r\n\t\t<meta charset="utf-8" />\r\n\t\t<link rel="icon" href="' +
+			'<!doctype html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<link rel="icon" href="' +
 			assets +
-			'/favicon.png" />\r\n\t\t<link rel="stylesheet" href="' +
+			'/favicon.png" />\n\t\t<link rel="stylesheet" href="' +
 			assets +
-			'/css/nav.css" />\r\n\t\t<link rel="stylesheet" href="' +
+			'/css/nav.css" />\n\t\t<link rel="stylesheet" href="' +
 			assets +
-			'/css/global.css" />\r\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n\t\t' +
+			'/css/global.css" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t' +
 			head +
-			'\r\n\t</head>\r\n\t<body data-sveltekit-preload-data="hover">\r\n\t\t<div style="display: contents">' +
+			'\n\t</head>\n\t<body data-sveltekit-preload-data="hover">\n\t\t<div style="display: contents">' +
 			body +
-			'</div>\r\n\t</body>\r\n</html>\r\n',
+			'</div>\n\t</body>\n</html>\n',
 		error: ({ status, message }) =>
 			'<!doctype html>\n<html lang="en">\n\t<head>\n\t\t<meta charset="utf-8" />\n\t\t<title>' +
 			message +
@@ -46,7 +46,7 @@ export const options = {
 			message +
 			'</h1>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>\n'
 	},
-	version_hash: 'd7ljow'
+	version_hash: 'k513s'
 };
 
 export async function get_hooks() {

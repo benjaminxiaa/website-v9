@@ -6,6 +6,8 @@
 </script>
 
 <svelte:head>
+	<link rel="stylesheet" href="/css/photography.css" />
+	<!-- TODO: remove after adding images -->
 	<link rel="stylesheet" href="/css/gallery.css" />
 </svelte:head>
 
@@ -13,12 +15,12 @@
 
 <nav class="top-right-navbar">
 	<ul>
-		<li><a href="/work/photography/2022/death-valley">[Death Valley]</a></li>
-		<li><a href="/work/photography/2023/big-sur">[Big Sur]</a></li>
-		<li><a href="/work/photography/2023/hakone-gardens">[Hakone Gardens]</a></li>
-		<li><a href="/work/photography/2023/new-mexico">[New Mexico]</a></li>
-		<li><a href="/work/photography/2024/south-korea">[South Korea]</a></li>
-		<li><a href="/work/photography/2024/japan">[Japan]</a></li>
+		<li><a href="/work/photo/2022/death-valley">[Death Valley]</a></li>
+		<li><a href="/work/photo/2023/big-sur">[Big Sur]</a></li>
+		<li><a href="/work/photo/2023/hakone-gardens">[Hakone Gardens]</a></li>
+		<li><a href="/work/photo/2023/new-mexico">[New Mexico]</a></li>
+		<li><a href="/work/photo/2024/south-korea">[South Korea]</a></li>
+		<li><a href="/work/photo/2024/japan">[Japan]</a></li>
 	</ul>
 </nav>
 

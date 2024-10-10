@@ -18,4 +18,7 @@
 		ago. I love taking photos of the environment and other interesting subjects. I also love making
 		videos of my adventures and other interesting things as well as filming events at my school.
 	</p>
+	<p>
+		I've worked with: <a class="link" href="https://mikvisual.mypixieset.com/">mik.visuals</a>
+	</p>
 </div>

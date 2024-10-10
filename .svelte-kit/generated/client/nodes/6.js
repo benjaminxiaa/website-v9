@@ -1,1 +1,1 @@
-export { default as component } from '../../../../src/routes/work/photo/2022/death-valley/+page.svelte';
+export { default as component } from '../../../../src/routes/work/clients/harker-sports/football/+page.svelte';
