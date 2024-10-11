@@ -7,6 +7,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/photography.css" />
+	<title>Harker Football</title>
 	<!-- TODO: Change to gallery.css after adding images -->
 </svelte:head>
 

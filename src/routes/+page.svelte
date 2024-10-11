@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/index.css" />
+	<title>Benjamin Xia</title>
 </svelte:head>
 
 <Nav />

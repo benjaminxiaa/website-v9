@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/photography.css" />
+	<title>Harker Sports</title>
 </svelte:head>
 
 <Nav />

@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="/css/photography.css" />
 	<!-- TODO: remove after adding images -->
 	<link rel="stylesheet" href="/css/gallery.css" />
+	<title>Japan</title>
 </svelte:head>
 
 <Nav />

@@ -48,6 +48,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/gallery.css" />
+	<title>Death Valley</title>
 </svelte:head>
 
 <Nav />

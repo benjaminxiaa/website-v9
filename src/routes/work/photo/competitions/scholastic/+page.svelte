@@ -8,6 +8,7 @@
 <svelte:head>
 	<link rel="stylesheet" href="/css/photography.css" />
 	<!-- TODO: Change to gallery.css after adding images -->
+	<title>Scholastic Art and Writing Competition</title>
 </svelte:head>
 
 <Nav />

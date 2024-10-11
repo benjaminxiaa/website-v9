@@ -43,6 +43,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/gallery.css" />
+	<title>New Mexico</title>
 </svelte:head>
 
 <Nav />

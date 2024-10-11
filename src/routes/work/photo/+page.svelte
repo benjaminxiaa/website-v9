@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/photography.css" />
+	<title>Photography</title>
 </svelte:head>
 
 <Nav />

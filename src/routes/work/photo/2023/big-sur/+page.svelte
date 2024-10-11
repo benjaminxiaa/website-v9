@@ -16,6 +16,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/gallery.css" />
+	<title>Big Sur</title>
 </svelte:head>
 
 <Nav />
