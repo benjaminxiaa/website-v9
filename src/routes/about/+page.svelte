@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/about.css" />
+	<title>About Me</title>
 </svelte:head>
 
 <Nav />

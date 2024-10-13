@@ -4,6 +4,7 @@
 
 <svelte:head>
 	<link rel="stylesheet" href="/css/contact.css" />
+	<title>Contact Me</title>
 </svelte:head>
 
 <Nav />
