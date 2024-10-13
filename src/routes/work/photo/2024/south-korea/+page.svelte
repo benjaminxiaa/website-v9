@@ -6,7 +6,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/css/photography.css" />
+	<link rel="stylesheet" href="/css/header-page.css" />
 	<!-- TODO: remove after adding images -->
 	<link rel="stylesheet" href="/css/gallery.css" />
 	<title>South Korea</title>

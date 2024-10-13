@@ -32,9 +32,9 @@ export const options = {
 			assets +
 			'/css/nav.css" />\n\t\t<link rel="stylesheet" href="' +
 			assets +
-			'/css/global.css" />\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t' +
+			'/css/global.css" />\n\n\t\t' +
 			head +
-			'\n\t</head>\n\t<body data-sveltekit-preload-data="hover">\n\t\t<div style="display: contents">' +
+			'\n\n\t\t<meta name="viewport" content="width=device-width, initial-scale=1" />\n\t\t<!-- <meta name="description" content="Hey, I\'m Benjamin. I like to photograph stuff." /> -->\n\t</head>\n\t<body data-sveltekit-preload-data="hover">\n\t\t<div style="display: contents">' +
 			body +
 			'</div>\n\t</body>\n</html>\n',
 		error: ({ status, message }) =>
@@ -46,7 +46,7 @@ export const options = {
 			message +
 			'</h1>\n\t\t\t</div>\n\t\t</div>\n\t</body>\n</html>\n'
 	},
-	version_hash: '1l4x7p8'
+	version_hash: '10f9htn'
 };
 
 export async function get_hooks() {

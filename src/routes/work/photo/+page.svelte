@@ -1,17 +1,17 @@
 <script>
 	import Nav from '$lib/components/Nav.svelte';
+	import Title from '$lib/components/Title.svelte';
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/css/photography.css" />
+	<link rel="stylesheet" href="/css/header-page.css" />
 	<title>Photography</title>
 </svelte:head>
 
 <Nav />
 
-<main class="page-container">
-	<h1 class="center">Photography</h1>
-</main>
+<Title title="Photography" copyright={true} type="photo" />
+
 <div class="after-page">
 	<div class="after-page-content">
 		<div class="column left-column">

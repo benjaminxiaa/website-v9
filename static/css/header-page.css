@@ -27,6 +27,19 @@ p {
 
 a {
 	font-weight: 700;
+	color: var(--color-light);
+	text-decoration: underline;
+}
+
+.link {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: #3366cc;
+	text-decoration: none;
+}
+
+.link:hover {
+	color: #1a3366;
 }
 
 .center {
@@ -49,6 +62,23 @@ a {
 	color: transparent;
 }
 
+.sub-center {
+	position: absolute;
+	top: 60%;
+	right: 30%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	z-index: 2;
+	text-align: center;
+	transform: translateY(-50%);
+	font-weight: 800;
+	font-size: 15px;
+	color: var(--color-light);
+	line-height: 1;
+	text-align: right;
+}
+
 .page-container {
 	display: flex;
 	flex-direction: column;
@@ -65,24 +95,59 @@ a {
 
 .after-page {
 	display: flex;
-	flex-direction: column;
-	min-height: 10vh;
+	align-items: center;
 	justify-content: center;
+	min-height: 90vh;
 	margin: 0 auto;
-	max-width: 45rem;
-	padding: 1rem;
+	max-width: 80rem;
+	padding: 2rem;
 }
 
-.after-page > * + * {
-	margin-top: 1.5rem;
+.after-page-content {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10rem;
+	justify-content: center;
+	max-width: 100%;
+	align-items: center;
+}
+
+.column {
+	flex: 1;
+	min-width: 300px;
+	max-width: 400px;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-column {
+	text-align: right;
+	align-items: center;
+	justify-content: center;
 }
 
 .after-page p {
 	color: var(--color-light);
-	font-size: 1.5rem;
+	font-size: 1.25rem;
 }
 
 .after-page h2 {
 	color: var(--color-light);
-	font-size: 2rem;
+	font-size: 1.75rem;
+	margin-bottom: 1rem;
+}
+
+.link {
+	display: block;
+	margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+	.after-page-content {
+		flex-direction: column;
+	}
+
+	.column {
+		max-width: 100%;
+	}
 }

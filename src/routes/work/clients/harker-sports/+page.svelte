@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<link rel="stylesheet" href="/css/photography.css" />
+	<link rel="stylesheet" href="/css/header-page.css" />
 	<title>Harker Sports</title>
 </svelte:head>
 

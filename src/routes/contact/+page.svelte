@@ -12,5 +12,5 @@
 	<h1 class="center">Contact Me</h1>
 </main>
 <div class="after-page">
-	<p>Contact Me: <a href="mailto:me@bxia.net">Here</a></p>
+	<p>Contact Me: <a href="mailto:benjamin@xiaa.org">Here</a></p>
 </div>
